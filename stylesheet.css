@@ -1,0 +1,280 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  width: 100%;
+}
+li{
+  list-style: none;
+}
+/*ヘッダー*/
+header{
+  height: 70px;
+  width: 100%;
+  background-color: #ec715f;
+  position-top: 70px;
+}
+nav{
+  width: 1024px;
+  margin: 0 auto;
+}
+nav ul li img{
+  height: 70px;
+  line-height: 70px;
+}
+nav ul{
+  display: flex;
+  justify-content: flex-end;
+}
+nav ul li:first-child{
+  margin-right: auto;
+  margin-left: 0;
+}
+nav li{
+  color: #fafafa;
+  line-height: 70px;
+  font-size:16px;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+/*メインビジュアル*/
+.main-visual{
+  height: 650px;
+  background-image: url("img/mv.png");
+  background-size: cover;
+  color: #fafafa;
+  background-position: center;
+}
+.main-visual h1{
+  padding-top: 200px;
+  font-size: 64px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.main-visual p{
+  font-size: 20px;
+  text-align: center;
+
+}
+/*ポートフォリオ*/
+.portfolio{
+  background-color: #eceff1;
+  width: 100%;
+}
+.portfolio-contents{
+  padding-top:90px;
+  width: 920px;
+  margin: 0 auto;
+  text-align: center;
+}
+.portfolio-contents h3{
+  font-size:32px;
+}
+.bar {
+  width: 70px;
+  height: 3px;
+  background-color: #ec715f;
+  margin: 0 auto;
+  margin-top:8px;
+  margin-bottom:30px;
+}
+.portfolio p{
+  font-size: 16px;
+  padding-bottom: 30px;
+  color: #000;
+}
+.portfolio ul{
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 90px;
+}
+.portfolio li{
+  margin-right:10px;
+  margin-bottom: 5px;
+}
+.portfolio ul li img{
+  width: 300px;
+  height: 250px;
+  object-fit:cover;
+}
+.portfolio ul li:nth-child(3n){
+  margin-right:0;
+}
+.portfolio ul li:nth-child(n+4){
+  margin-bottom:0;
+}
+
+/*フューチャー*/
+.feature{
+  width: 100%;
+}
+.feature-contents{
+  width:980px;
+  margin: 0 auto;
+  text-align: center;
+}
+.feature-contents h3{
+  padding-top: 90px;
+  font-size: 32px;
+  color: #000;
+}
+.feature-contents p{
+  font-size:16px;
+  margin-bottom: 30px;
+}
+.feature-contents ul{
+  display: flex;
+  margin-bottom: 90px;
+}
+.feature-contents li{
+  width: 320px;
+  height: auto;
+  margin-right: 10px;
+}
+.feature-contents li:last-child{
+  margin-right:0;
+}
+.feature-contents i{
+  font-size: 60px;
+}
+.feature-contents h5{
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.feature-contents li p{
+  text-align: left;
+}
+/*プロフィール*/
+.profile{
+  width: 100%;
+  background-color: #eceff1;
+}
+.profile-contents{
+  width: 1024px;
+  margin: 0 auto;
+  text-align: center;
+}
+.profile-contents h3{
+  padding-top: 90px;
+  font-size: 32px;
+  color: #000;
+}
+.profile-contents p{
+  font-size:16px;
+  margin-bottom: 30px;
+}
+.profile-contents h5{
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.profile-bottom{
+  display: flex;
+  padding-bottom: 90px;
+}
+.profile-bottom>div{
+  width: 50%;
+}
+.profile-bottom img{
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+.profile-text{
+  text-align: left;
+}
+.profile-text p{
+  margin-bottom: 20px;
+}
+
+/*コンタクト*/
+.contact{
+  width: 100%;
+}
+.contact-contents{
+  width:800px;
+  margin: 0 auto;
+  padding-bottom: 90px;
+}
+.contact-contents h3{
+  text-align: center;
+  padding-top: 90px;
+  font-size: 32px;
+  color: #000;
+}
+.contact-contents p{
+  text-align: center;
+  font-size:16px;
+  margin-bottom: 30px;
+}
+.contact-contents h5{
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.mail-content{
+  margin-bottom: 30px;
+}
+/*コンタクト下部*/
+.contact-bottom{
+  display: flex;
+  /*margin-bottom: 30px;*/
+}
+.contact-bottom>div{
+  width: 400px;
+}
+
+.contact-right p{
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.contact-icon i{
+  margin-right: 20px;
+  font-size: 50px;
+}
+.contact-icon i:last-child{
+  margin-right:0;
+}
+
+.contact-left>div{
+  width: 130px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.contact-right>div{
+  width: 180px;
+  margin: 0 auto;
+}
+.contact-right{
+  width:170px;
+}
+.contact-right p{
+  text-align: left;
+}
+.contact-left p{
+  text-align: left;
+  font-size:20px;
+  margin-bottom: 5px;
+}
+.contact-left p:last-child{
+  margin-bottom: 0;
+}
+.contact-left a{
+  color: black;
+}
+
+/*フッター*/
+footer{
+  height: 60px;
+  width: 100%;
+  background-color: #ec715f;
+
+}
+.footer p{
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  line-height: 60px;
+}
